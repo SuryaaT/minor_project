@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History Returns</title>
+
+    <style>
+        #a {
+            background-image: url(https://media2.thrillophilia.com/images/photos/000/383/720/original/1651658174_shutterstock_790124227.jpg?w=1024&h=200&dpr=1.5);
+            background-size: cover;
+            background-position: center;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            font-size: 30px;
+            padding: 20px;
+        }
+
+        .maindiv {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            background-color: rgb(199, 255, 255);
+            grid-gap: 20px; 
+            text-align: center;
+            font-size: large;
+            padding: 20px;
+        }
+        
+        .maindiv > div {
+            padding: 20px;
+            border-radius: 10px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+
+        .grid {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 250px; 
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .pic1 { background-image: url(https://media1.thrillophilia.com/filestore/q0nyyhsrwksc7e6dr1akfdk0iepm_Taj%20Mahal-3.jpg?w=305&h=230&dpr=2.0); }
+        .pic2 { background-image: url(https://www.holidify.com/images/attr_square/1727.jpg); }
+        .pic3 { background-image: url(https://media1.thrillophilia.com/filestore/9hagppudfykojbhgmswz6bg62e3z_61091638425f5.jpg?w=305&h=230&dpr=2.0); }
+        .pic4 { background-image: url(https://media1.thrillophilia.com/filestore/k9ckfx3i5ax627tz0w12kkappuw0_amber-fort-dzhaipur-radzhastkhan-indiia.jpg?w=305&h=230&dpr=2.0); }
+        .pic5 { background-image: url(https://www.holidify.com/images/attr_square/2435.jpg); }
+
+        .footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header id="a">
+        <span style="font-size: 50px;">20</span> 
+        <span style="padding-left: 10px;">Historical Places in India</span>
+    </header>
+
+    <div class="maindiv">
+        <div>
+            <div class="grid pic1"><a style="color:white ; background-color: black;" href="https://en.wikipedia.org/wiki/Taj_Mahal">Taj Mahal</a></div>
+            <p class="description">The Taj Mahal was commissioned by Shah Jahan in 1631, built in memory of his wife Mumtaz Mahal.</p>
+        </div>   
+        
+        <div>
+            <div class="grid pic2"><a style="color:white ; background-color: black;" href="https://en.wikipedia.org/wiki/Qutb_Minar">Qutub Minar</a></div>
+            <p class="description">The Qutb Minar was constructed by Qutub-ud-Din Aibak and later completed by Iltutmish.</p>
+        </div>
+
+        <div>
+            <div class="grid pic3"><a style="color:white ; background-color: black;" href="https://en.wikipedia.org/wiki/Hawa_Mahal">Hawa Mahal</a></div>
+            <p class="description">The Hawa Mahal is a palace in Jaipur, Rajasthan, built from red and pink sandstone.</p>
+        </div>
+
+        <div>
+            <div class="grid pic4"><a style="color:white ;background-color: rgb(0, 0, 0);" href="https://en.wikipedia.org/wiki/Amber_Fort">Amber Fort</a></div>
+            <p class="description">Amber was a Meena state before being captured by Kachwahas and turned into a fort.</p>
+        </div>
+
+        <div>
+            <div class="grid pic5"><a style="color:rgb(255, 255, 255);background-color: rgb(0, 8, 7);" href="https://en.wikipedia.org/wiki/Mysore_Palace">Mysore Palace</a></div>
+            <p class="description">Mysore Palace, also known as Amba Vilas Palace, is a royal residence in Mysore, Karnataka.</p>
+        </div>
+    </div> 
+    
+    <footer class="footer">
+        &copy; 2025 History Returns | All Rights Reserved
+    </footer>
+</body>
+</html>
